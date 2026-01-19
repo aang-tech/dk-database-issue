@@ -2,9 +2,9 @@ services:
   db:
     image: postgres:latest
     environment:
-      POSTGRES_USER: support_user
-      POSTGRES_PASSWORD: password123
-      POSTGRES_DB: support_db
+      POSTGRES_USER: thedbuser
+      POSTGRES_PASSWORD: thepassword
+      POSTGRES_DB: coolappdb
     command: ["postgres", "-c", "max_connections=10"] # Limit to 10 for simulation
     ports:
       - "5432:5432"
