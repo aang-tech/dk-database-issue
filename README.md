@@ -1,4 +1,4 @@
-# Database Connection Leak Simulation
+# dk-database-issue
 
 A Docker-based project that demonstrates a PostgreSQL connection leak in PHP - a common performance issue where connections aren't properly closed after use.
 
